@@ -30,6 +30,3 @@ def signup(request):
         'form': form
     })
     
-    
-def login(request):
-    return render(request, 'core/login.html')
